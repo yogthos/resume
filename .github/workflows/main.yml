@@ -13,9 +13,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.x        
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}
+          path: ~/.npm          
 
-      - run: install nbb
+      - run: install nbb ~/.
       - run: npm install
       - run: npx nbb compile
