@@ -27,7 +27,7 @@
                  :endDate    "2023-05-10"
                  :summary    "As a senior developer, I played a key role in building a robust and scalable financial services platform."
                  :highlights ["Designed and implemented a microservice architecture that allowed for efficient management of financial transactions, ensuring that our platform could handle large volumes of data with ease."
-                              "Created an infrastructure for microservice orchestration that enabled seamless communication between different services, reducing downtime and improving overall reliability."
+                              "Created infrastructure for microservice orchestration that enabled seamless communication between different services, reducing downtime and improving overall reliability."
                               "Developed RESTful APIs for our financial services, making it easy for customers to interact with our platform and enabling us to deliver a seamless user experience."
                               "Mentored junior developers, sharing my expertise and knowledge of best practices in financial services development to help them grow as professionals and contribute to the success of our team."]}
                 {:company    "University Health Network"
