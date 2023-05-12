@@ -4,7 +4,7 @@ name: CI
 on: [push]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,7 +12,10 @@ jobs:
       - name: Use Node.js 20.x
         uses: actions/setup-node@v3
         with:
-          node-version: 20.x
+          node-version: 20.x        
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}
+
       - run: install nbb
       - run: npm install
       - run: npx nbb compile
