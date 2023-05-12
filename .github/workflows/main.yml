@@ -13,6 +13,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20.x
-      - run: install nbb -g
+      - run: install nbb
       - run: npm install
-      - run: nbb compile
+      - run: npx nbb compile
