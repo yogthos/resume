@@ -7,6 +7,6 @@
 
 compiling the resume will pass the content of `resouces/resume.edn` to the theme template found under `resources/themes`.
 
-    nbb compile
+    nbb compile.cljs
 
 The artifact will be generated in the `target` folder.    
